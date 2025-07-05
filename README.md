@@ -88,6 +88,26 @@ ppfcalculator/
         └── script.js     # JavaScript functionality
 ```
 
+## Deployment
+
+### Local Development
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+### Vercel Deployment
+This application is configured for easy deployment to Vercel:
+
+1. **Push to Git repository**
+2. **Import project in Vercel Dashboard**
+3. **Deploy automatically**
+
+See `DEPLOYMENT.md` for detailed deployment instructions.
+
+### Live Demo
+🌐 **[View Live Demo](https://your-project-name.vercel.app)**
+
 ## Browser Compatibility
 
 - Chrome 60+
